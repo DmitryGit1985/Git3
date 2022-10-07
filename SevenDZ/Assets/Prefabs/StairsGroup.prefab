@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2194467404773711631
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2194467404773711624}
+  - component: {fileID: 2194467404773711625}
+  m_Layer: 0
+  m_Name: StairsGroup
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2194467404773711624
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2194467404773711631}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2194467404773711625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2194467404773711631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c60a0cf44fc6e434d93be1c8553bf822, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stairs:
+  - {fileID: 8385654625619350477, guid: 1e504368eafc1464a9fa3bd04eb7ac73, type: 3}
+  - {fileID: 8385654625619350477, guid: 1e504368eafc1464a9fa3bd04eb7ac73, type: 3}
+  - {fileID: 8385654625619350477, guid: 1e504368eafc1464a9fa3bd04eb7ac73, type: 3}
+  floorRoof: {fileID: 7526075190687710675, guid: 0e89b0620deea4c4889ea2ada700a9a5, type: 3}
